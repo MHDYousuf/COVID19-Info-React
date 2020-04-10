@@ -1,0 +1,13 @@
+.brandContainer {
+  position: absolute;
+  left: 2rem;
+}
+.brandHeading {
+  color: whitesmoke;
+  font-size: 35px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  span {
+    text-decoration: line-through;
+  }
+}
