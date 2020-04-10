@@ -4,7 +4,7 @@ import AppReducer from "./AppReducer";
 
 const instanceData = axios.create({
   baseURL: "https://corona-api.com/",
-  timeout: 1000,
+
   headers: { "Content-Type": "application/json" },
 });
 
@@ -47,22 +47,13 @@ export const GlobalProvider = ({ children }) => {
         payload: res.data.data,
       });
     } catch (err) {
+      console.log(err);
       dispatch({
         type: "RECEIVED_ERROR",
         payload: err.response.data.error,
       });
     }
   }
-  // async function getCountryWithTimelineDetails() {
-  //   try {
-  //     const res = await instanceData.get("countries?include=timeline");
-  //     let { data } = res.data;
-  //     console.log(data);
-  //     return data;
-  //   } catch (err) {
-  //     console.log(err);
-  //   }
-  // }
 
   return (
     <GlobalContext.Provider

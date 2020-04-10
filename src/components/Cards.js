@@ -5,9 +5,7 @@ import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
 import {
   Grid,
   Card,
-  CardActions,
   CardContent,
-  Button,
   Typography,
   useMediaQuery,
   Badge,
@@ -92,7 +90,7 @@ export default function Cards() {
   };
   const matches = useMediaQuery("(max-width:998px)");
   const classes = useStyles();
-  if (timeline.length == 0) {
+  if (timeline.length === 0) {
     return (
       <Grid
         className={
@@ -108,7 +106,7 @@ export default function Cards() {
       </Grid>
     );
   }
-  console.log(timeline);
+  // console.log(timeline);
   return (
     <Grid
       className={
