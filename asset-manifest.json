@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/COVID19-Info-React/static/css/main.446b421f.chunk.css",
+    "main.js": "/COVID19-Info-React/static/js/main.c54faa08.chunk.js",
+    "main.js.map": "/COVID19-Info-React/static/js/main.c54faa08.chunk.js.map",
+    "runtime-main.js": "/COVID19-Info-React/static/js/runtime-main.8b44d39e.js",
+    "runtime-main.js.map": "/COVID19-Info-React/static/js/runtime-main.8b44d39e.js.map",
+    "xlsx.js": "/COVID19-Info-React/static/js/xlsx.126ed539.chunk.js",
+    "xlsx.js.map": "/COVID19-Info-React/static/js/xlsx.126ed539.chunk.js.map",
+    "static/js/3.a5f1c685.chunk.js": "/COVID19-Info-React/static/js/3.a5f1c685.chunk.js",
+    "static/js/3.a5f1c685.chunk.js.map": "/COVID19-Info-React/static/js/3.a5f1c685.chunk.js.map",
+    "static/js/4.71be96a3.chunk.js": "/COVID19-Info-React/static/js/4.71be96a3.chunk.js",
+    "static/js/4.71be96a3.chunk.js.map": "/COVID19-Info-React/static/js/4.71be96a3.chunk.js.map",
+    "static/js/5.b335d7a0.chunk.js": "/COVID19-Info-React/static/js/5.b335d7a0.chunk.js",
+    "static/js/5.b335d7a0.chunk.js.map": "/COVID19-Info-React/static/js/5.b335d7a0.chunk.js.map",
+    "static/js/6.4fc0e811.chunk.js": "/COVID19-Info-React/static/js/6.4fc0e811.chunk.js",
+    "static/js/6.4fc0e811.chunk.js.map": "/COVID19-Info-React/static/js/6.4fc0e811.chunk.js.map",
+    "index.html": "/COVID19-Info-React/index.html",
+    "precache-manifest.708222179bc78740fe047b9f7b45b11b.js": "/COVID19-Info-React/precache-manifest.708222179bc78740fe047b9f7b45b11b.js",
+    "service-worker.js": "/COVID19-Info-React/service-worker.js",
+    "static/css/main.446b421f.chunk.css.map": "/COVID19-Info-React/static/css/main.446b421f.chunk.css.map",
+    "static/js/3.a5f1c685.chunk.js.LICENSE.txt": "/COVID19-Info-React/static/js/3.a5f1c685.chunk.js.LICENSE.txt",
+    "static/js/5.b335d7a0.chunk.js.LICENSE.txt": "/COVID19-Info-React/static/js/5.b335d7a0.chunk.js.LICENSE.txt",
+    "static/js/6.4fc0e811.chunk.js.LICENSE.txt": "/COVID19-Info-React/static/js/6.4fc0e811.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b44d39e.js",
+    "static/js/3.a5f1c685.chunk.js",
+    "static/css/main.446b421f.chunk.css",
+    "static/js/main.c54faa08.chunk.js"
+  ]
+}
