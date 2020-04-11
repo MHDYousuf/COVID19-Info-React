@@ -106,7 +106,6 @@ export default function Cards() {
       </Grid>
     );
   }
-  // console.log(timeline);
   return (
     <Grid
       className={
