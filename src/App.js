@@ -9,6 +9,7 @@ import Cards from "./components/Cards";
 const useStyles = makeStyles((theme) => ({
   root: {
     display: "flex",
+    background: "#000",
     margin: "auto",
     justifyContent: "center",
     minHeight: "100vh",

@@ -75,16 +75,17 @@ function Globe() {
     var heatLegend = chart.chartContainer.createChild(am4maps.HeatLegend);
     heatLegend.valign = "bottom";
     heatLegend.align = "right";
-    heatLegend.width = am4core.percent(100);
+    heatLegend.width = am4core.percent(40);
     heatLegend.series = polygonSeries;
     if (!matches) heatLegend.marginRight = 40;
+    heatLegend.marginTop = 20;
     heatLegend.background.fill = am4core.color("#000");
     heatLegend.background.fillOpacity = 0.05;
-    heatLegend.orientation = matches ? "horizontal" : "vertical";
+    heatLegend.orientation = "horizontal";
     heatLegend.padding(5, 5, 5, 5);
     heatLegend.valueAxis.renderer.labels.template.fill = "#bddbff";
     heatLegend.valueAxis.renderer.labels.template.fontSize = 12;
-    heatLegend.valueAxis.renderer.minGridDistance = 40;
+    heatLegend.valueAxis.renderer.minGridDistance = 35;
 
     polygonSeries.mapPolygons.template.events.on("over", (event) => {
       handleHover(event.target);
